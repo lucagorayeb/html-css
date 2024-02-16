@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        h1{
+            box-shadow: -4px -5px 8px 1px rgba(0, 0, 0, 0.336);
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: grey;
+            padding: 5px;
+            box-shadow: 6px 3px 7px 1px rgba(0, 0, 0, 0.486);
+        }
+
+        nav > a {
+            padding-right: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            color : white ;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a:active{
+            color: blue;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 4px black;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        aside{
+            background-color: rgb(134, 132, 132);
+            margin: 3px;
+            padding: 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>Esporte Política Tecnologia</h2>
+        </section>
+
+        <section id="noticias">
+            <article >
+                <h3>Notícias sobre o Brasil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum ea, ex doloremque fuga ratione saepe! Reiciendis quae impedit nobis commodi, non, excepturi repudiandae perspiciatis, pariatur voluptatibus obcaecati adipisci quos.</p>
+                
+                <aside>
+                    <p>Artigo escrito por João Silva</p>
+                </aside>
+            </article>
+
+                <article >
+                    <h3>Notícias sobre o Estados Unidos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ratione quidem facere fugiat reprehenderit quos veritatis eveniet vitae enim ea eligendi culpa suscipit officia, aut et corrupti aliquid perspiciatis adipisci.</p>
+                    
+                    <aside>
+                        <p>Artigo escrito por Maria José</p>
+                    </aside>
+                </article>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pela rede Gordo Notícia</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
